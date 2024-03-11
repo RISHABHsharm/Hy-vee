@@ -48,7 +48,7 @@ const Home = () => {
         </button>
       </form>
       {ageLoading || genderLoading || countryLoading ? 
-        <h2 className={styles.header}>loading...</h2> : 
+        <h2 className={styles.header}>Searching...</h2> : 
         <GuessResult 
           guessData={{
             data : {ageData, genderData, countryData},
